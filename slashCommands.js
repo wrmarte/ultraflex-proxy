@@ -24,10 +24,6 @@ const commands = [
     .setName('channels')
     .setDescription('Show all alert channels for a contract')
     .addStringOption(opt => opt.setName('name').setDescription('Contract name').setRequired(true)),
- 
-  new SlashCommandBuilder()
-  .setName('flex')
-  .setDescription('Flex a random minted NFT from a contract tracked in this channel'),
 
 
   new SlashCommandBuilder()
