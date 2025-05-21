@@ -6,6 +6,9 @@ const commands = [
   new SlashCommandBuilder()
     .setName('helpmint')
     .setDescription('Show the Mint Bot help menu'),
+console.log('CLIENT_ID:', process.env.CLIENT_ID);
+console.log('DISCORD_BOT_TOKEN:', process.env.DISCORD_BOT_TOKEN?.slice(0, 10) + '...');
+
 
   new SlashCommandBuilder()
     .setName('trackmint')
