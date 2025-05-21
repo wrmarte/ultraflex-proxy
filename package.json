@@ -1,0 +1,19 @@
+{
+  "name": "pimpmints",
+  "version": "1.0.0",
+  "description": "A Discord bot that tracks CryptoPimps mints.",
+  "main": "pimpmint/index.js",
+  "scripts": {
+    "start": "node --no-deprecation --max-old-space-size=1024 pimpmint/index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "ethers": "^6.10.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.12",
+    "pg": "^8.11.3"
+  }
+}
