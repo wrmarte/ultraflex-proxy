@@ -1,5 +1,5 @@
 {
-  "name": "ens-proxy",
+  "name": "ultraflex-proxy",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
